@@ -1,0 +1,153 @@
+{
+  "person": {
+    "name": "Hana",
+    "university": "University of Michigan",
+    "degree": "B.S. Mechanical Engineering, Class of 2028",
+    "minor": "Ross School of Business",
+    "coding_experience": "7 years",
+    "languages": ["Python", "JavaScript", "C++", "MATLAB"],
+    "other_skills": ["UX/UI design", "data analysis", "data modeling"],
+    "current_role": "Apprentice PU/ERS Engineer at Cadillac F1 (remote)",
+    "location": "Ann Arbor, MI"
+  },
+
+  "career_goals": {
+    "target_role": "Strategy & Operations / Founding Team Generalist at early stage fashion tech startup",
+    "not_targeting": "Data engineering, pure PM, supply chain engineering",
+    "why": "Business is my passion and mind. Engineering is my background, fashion is my interest. I want to own things end to end and have my analysis drive decisions, not just inform them.",
+    "ideal_work_environment": "Pre-Series B startup, small team, high autonomy, close to founder",
+    "timeline": "Internship or role by late August 2026",
+    "longer_term": "Possibly start a company eventually, but not right now",
+    "companies_of_interest": [
+      "Garde-Robe",
+      "The Mall (themall.app)",
+      "Stitch Fix",
+      "ThredUp",
+      "Sourcemap",
+      "EON",
+      "The RealReal",
+      "Vestiaire Collective",
+      "Fibertrace",
+      "Oritain",
+      "Amer Sports / Arc'teryx",
+      "EDITED"
+    ],
+    "active_outreach": [
+      {
+        "company": "Garde-Robe",
+        "status": "DM sent, awaiting response",
+        "role": "Marketing internship"
+      },
+      {
+        "company": "The Mall (themall.app)",
+        "status": "Cold DM sent to founder Sreya Halder, awaiting response",
+        "role": "Any contribution while they build their team"
+      }
+    ]
+  },
+
+  "completed_projects": {
+    "project_1": {
+      "name": "Fashion Sustainability Scorecard Dashboard",
+      "status": "Built, needs final polish and GitHub push",
+      "description": "Scores 15 fashion brands across 8 sustainability metrics using public data from Fashion Revolution Transparency Index, Good On You, B Corp, and brand sustainability reports",
+      "tech_stack": ["Python", "JavaScript", "Chart.js", "FastAPI", "GitHub Pages"],
+      "key_finding": "Traceability and living wage compliance are the weakest metrics across every brand regardless of overall score"
+    },
+    "project_2": {
+      "name": "Fashion Trend Forecasting Model",
+      "status": "Complete, live on GitHub Pages",
+      "github": "https://github.com/hasnaoh/fashion-trend-forecasting",
+      "dashboard": "https://hasnaoh.github.io/fashion-trend-forecasting/",
+      "description": "Demand forecasting model on 31.7M H&M transactions testing whether Google Trends search volume predicts fashion purchase behavior",
+      "tech_stack": ["Python", "Prophet", "pytrends", "Pandas", "SciPy", "HTML/CSS/JS"],
+      "key_findings": [
+        "Prophet beats 3-month rolling average baseline in all 4 categories",
+        "Swimwear Google Trends signal predicts purchases 1 week in advance (r=0.88, p<0.001)",
+        "Trousers has no significant search signal (r=0.11, p=0.27) — category granularity matters",
+        "Sweater model tuned from 21.3% to 16.77% WMAPE by increasing Fourier order from 10 to 20"
+      ]
+    }
+  },
+
+  "project_3": {
+    "name": "TBD — Secondhand Fashion Valuation Model",
+    "status": "Ideation phase",
+    "leading_concept": "Idea 2 — Resale Valuation",
+    "problem_statement": "Pricing secondhand fashion is subjective, inconsistent, and often manipulated. Unlike tech resale which has clear valuation frameworks (condition grades, market comps, depreciation curves), fashion resale lacks systematic valuation because aesthetics, trend cycles, and cultural cachet affect value in ways current platforms don't model well.",
+    "why_interesting": [
+      "Clear commercial application — The RealReal, Vestiaire Collective, Grailed all struggle with this",
+      "Connects to existing Project 2 work — trend forecasting directly informs resale value timing",
+      "Technically feasible in 3-4 weeks without building a full marketplace",
+      "Business-heavy framing — this is a strategic analysis + prototype, not a data pipeline"
+    ],
+    "what_it_is_not": "A full marketplace or startup. This is a demonstration of skills — strategic thinking, data analysis, business framing, and a working prototype.",
+    "format": "Founder memo + working prototype. Like a hackathon — the idea and presentation matter as much as the code.",
+    "what_it_needs_to_prove": [
+      "Strategic thinking — identify a real gap and build a defensible point of view",
+      "Business literacy — understand the commercial context",
+      "Technical credibility — working model or prototype",
+      "Unique take — something that couldn't have come from a generic portfolio builder"
+    ],
+    "possible_components": [
+      "Analysis of how current resale platforms price items and where they fail",
+      "A valuation model incorporating trend data, brand equity signals, condition, and timing",
+      "Connection to Project 2 trend forecasting — how does search volume and trend cycle position affect resale price?",
+      "A simple working prototype or dashboard demonstrating the model",
+      "A 2-page strategic brief framing the problem and solution"
+    ],
+    "still_to_decide": [
+      "Is this the right project or is there a better angle?",
+      "Exact scope and what the output looks like",
+      "Data sources for resale pricing",
+      "Whether to incorporate AI layer"
+    ],
+    "timeline": "3-4 weeks"
+  },
+
+  "other_ideas_considered": [
+    {
+      "idea": "AI + Fashion Subjectivity Framework",
+      "description": "Strategic analysis of where AI fashion tools break down and where human judgment should stay in the loop",
+      "status": "Deprioritized for now"
+    },
+    {
+      "idea": "Sustainable Fashion Discovery Tool",
+      "description": "Consumer-facing curation tool surfacing sustainable options by price range and verified credentials",
+      "status": "Deprioritized — may already exist, too similar to Project 1"
+    },
+    {
+      "idea": "AI Integration Framework for Fashion",
+      "description": "Strategic analysis of where AI is working vs failing in fashion, with framework for early stage companies",
+      "status": "Deprioritized — more written piece than project"
+    },
+    {
+      "idea": "Supply Chain Map",
+      "description": "Interactive Leaflet.js map of Patagonia/Everlane factory data",
+      "status": "Dropped — original plan, not exciting enough, too technical without business angle"
+    }
+  ],
+
+  "learning_priorities": {
+    "vc_and_business_literacy": {
+      "status": "In progress — completed Phases 1 and 2 of reading list, started Phase 3",
+      "priority_topics": [
+        "Unit economics (CAC, LTV, burn rate, runway)",
+        "How VCs evaluate startups",
+        "Fashion tech funding history and failures",
+        "Early stage business model structure"
+      ],
+      "current_reading": "For the Culture by Marcus Collins (recommended by professor, relevant to fashion x culture x commerce)"
+    },
+    "approach": "One VC or business piece per day max alongside fashion tech articles. Reading fuels the doing, not replaces it."
+  },
+
+  "positioning": {
+    "one_liner": "Engineering student at Michigan with 7 years coding experience, actively building in fashion tech, with a business-first mindset and the technical skills to execute.",
+    "differentiator": "Combination of engineering rigor, Ross business training, fashion tech domain knowledge, and F1 operations experience. Rare profile.",
+    "f1_note": "Cadillac F1 work is a differentiator not a distraction. Logistics, data modeling, test plan analysis, and high-stakes decision making under time pressure are directly transferable skills.",
+    "linkedin_status": "Currently automotive-heavy. Needs update once projects are solid. Following fashion tech founders and investors in the meantime.",
+    "what_two_projects_prove": "Can build and analyze.",
+    "what_project_3_needs_to_prove": "Can think strategically, identify real problems, and propose solutions with business rigor."
+  }
+}

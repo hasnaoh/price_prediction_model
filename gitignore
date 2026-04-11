@@ -1,0 +1,30 @@
+# Environment & secrets
+.env
+
+# Data — never commit raw or processed datasets to GitHub
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+
+# Model artifacts (large binary files)
+backend/models/*.pkl
+backend/models/*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.env
