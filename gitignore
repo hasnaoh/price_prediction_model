@@ -1,30 +1,18 @@
-# Environment & secrets
-.env
-
-# Data — never commit raw or processed datasets to GitHub
+# Data — never commit
 data/raw/
 data/processed/
 
-# Python
-__pycache__/
-*.py[cod]
-.venv/
+# Local dev
+.env
 venv/
-*.egg-info/
-dist/
-
-# Model artifacts (large binary files)
-backend/models/*.pkl
-backend/models/*.json
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS
+__pycache__/
+*.pyc
 .DS_Store
-Thumbs.db
 
-# Node / frontend
+# Model artifacts — COMMIT THESE (Railway loads them at startup)
+# backend/models/*.pkl   <-- intentionally not ignored
+# backend/models/*.json  <-- intentionally not ignored
+
+# Node
 node_modules/
 frontend/dist/
-frontend/.env
