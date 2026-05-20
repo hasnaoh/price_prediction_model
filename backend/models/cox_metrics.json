@@ -1,0 +1,17 @@
+{
+  "concordance_index": 0.8327,
+  "n_train": 11044,
+  "event_rate": 0.853,
+  "median_days_to_sell": 29.0,
+  "features": [
+    "price_to_market_ratio",
+    "condition_score",
+    "saturation_index",
+    "accessories_flag",
+    "archive_score",
+    "trend_signal_encoded"
+  ],
+  "duration_col": "days_to_sell",
+  "event_col": "event_observed",
+  "note": "V1: synthetic days_to_sell. V2 SWAP: real eBay timestamps."
+}

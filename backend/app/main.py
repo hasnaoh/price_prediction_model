@@ -196,6 +196,7 @@ def predict_sell_through(cox_model, price, confidence_low, confidence_high,
 
     direction_map = {"rising": -1, "flat": 0, "declining": 1}  # negative = faster sell
 
+    # Cox model was trained on 6 features — match exactly (V2 adds google_trend_rsv, platform_tier)
     row = pd.DataFrame([{
         "price_to_market_ratio": price_to_market,
         "condition_score": condition_score,
@@ -203,8 +204,6 @@ def predict_sell_through(cox_model, price, confidence_low, confidence_high,
         "accessories_flag": parsed["accessories_flag"],
         "archive_score": parsed["archive_score"],
         "trend_signal_encoded": direction_map.get(trend["direction"], 0),
-        "google_trend_rsv": trend["rsv"],
-        "platform_tier": 0,  # V2 SWAP: real platform source
     }])
 
     # Predict survival curve
